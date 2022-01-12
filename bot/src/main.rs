@@ -28,18 +28,18 @@ async fn main() {
 
     let events_today = events(schedule.classes_on_weekday(today.weekday()), upcoming_time);
 
-    write!(file, "{}: Start", Local::now()).unwrap();
+    writeln!(file, "{}: Start", Local::now()).unwrap();
 
     for (instant, event, class) in events_today.into_iter().map(|(t, ev, cl)| (today.and_time(t).unwrap(), ev, cl)) {
         let diff = instant - Local::now();
         if diff < Duration::zero() {
-            write!(file, "{}: Skipping {:?} of {}", Local::now(), event, class.course()).unwrap();
+            writeln!(file, "{}: Skipping {:?} of {}", Local::now(), event, class.course()).unwrap();
             continue;
         }
 
-        write!(file, "{}: Waiting for {:?} of {}", Local::now(), event, class.course()).unwrap();
+        writeln!(file, "{}: Waiting for {:?} of {}", Local::now(), event, class.course()).unwrap();
         tokio::time::sleep(diff.to_std().unwrap()).await;
-        write!(file, "{}: {} is {:?}", Local::now(), class.course(), event).unwrap();
+        writeln!(file, "{}: {} is {:?}", Local::now(), class.course(), event).unwrap();
     }
 }
 
