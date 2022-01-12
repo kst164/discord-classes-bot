@@ -1,7 +1,8 @@
 use chrono::prelude::*;
 use chrono::Duration;
 use std::collections::{HashMap, BTreeMap};
-use std::time::Instant;
+use std::io::Write;
+use std::fs::OpenOptions;
 
 //mod get_schedule;
 mod sched;
@@ -9,6 +10,8 @@ use sched::{Class, get_weekly_schedule};
 
 #[tokio::main]
 async fn main() {
+    let mut file = OpenOptions::new().write(true).append(true).create(true).open("test_log.txt").unwrap();
+
     let today = Local::today();
     let mut next_weekday = HashMap::new();
 
@@ -25,21 +28,19 @@ async fn main() {
 
     let events_today = events(schedule.classes_on_weekday(today.weekday()), upcoming_time);
 
-    println!("{}: Start", Local::now());
+    write!(file, "{}: Start", Local::now()).unwrap();
 
     for (instant, event, class) in events_today.into_iter().map(|(t, ev, cl)| (today.and_time(t).unwrap(), ev, cl)) {
         let diff = instant - Local::now();
         if diff < Duration::zero() {
-            println!("{}: Skipping {:?} of {}", Local::now(), event, class.course());
+            write!(file, "{}: Skipping {:?} of {}", Local::now(), event, class.course()).unwrap();
             continue;
         }
 
-        println!("{}: Waiting for {:?} of {}", Local::now(), event, class.course());
+        write!(file, "{}: Waiting for {:?} of {}", Local::now(), event, class.course()).unwrap();
         tokio::time::sleep(diff.to_std().unwrap()).await;
-        println!("{}: {} is {:?}", Local::now(), class.course(), event);
+        write!(file, "{}: {} is {:?}", Local::now(), class.course(), event).unwrap();
     }
-
-    //println!("{:#?}", events(schedule.classes_on_weekday(Weekday::Mon), upcoming_time));
 }
 
 #[derive(Debug)]
