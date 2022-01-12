@@ -1,0 +1,114 @@
+{
+  "Monday": [
+    {
+      "course": "CS1000",
+      "startTime": "10:00",
+      "endTime": "10:55",
+      "link": ""
+    },
+    {
+      "course": "LA1760",
+      "startTime": "12:00",
+      "endTime": "12:55",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=mc7166f5479c257b4891a676b0544d44e"
+    },
+    {
+      "course": "CS1010",
+      "startTime": "14:30",
+      "endTime": "15:55",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjIyMzRlODAtNjNiZi00M2M2LTk2Y2EtM2IyNWYzNGQ0YTI3%40thread.v2/0?context=%7b%22Tid%22%3a%222f057da9-71e5-4402-9d02-954621afa5a6%22%2c%22Oid%22%3a%22a62a5f06-8755-48bf-8f7c-b67affbd055d%22%7d"
+    },
+    {
+      "course": "EP1108",
+      "startTime": "16:00",
+      "endTime": "17:25",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=mb4a02a3915e2b14a93198107771337c1"
+    }
+  ],
+  "Tuesday": [
+    {
+      "course": "LA1760",
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=ma0a8f2ea3cf6f162ba97154c9efe2d54"
+    },
+    {
+      "course": "MA1220",
+      "startTime": "10:00",
+      "endTime": "10:55",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=mbf80f790d6e5e02e8e84ba864c2b8e68"
+    },
+    {
+      "course": "ID1063",
+      "startTime": "14:30",
+      "endTime": "15:55",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m270c11fbcd6b3071e441a6cf320473b8"
+    },
+    {
+      "course": "CY1018",
+      "startTime": "16:00",
+      "endTime": "17:25",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m5db0a582b01e7b7dd668dfbfe408570d"
+    }
+  ],
+  "Wednesday": [
+    {
+      "course": "CS1000",
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "link": ""
+    },
+    {
+      "course": "ID1063Lab",
+      "startTime": "14:30",
+      "endTime": "16:25",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m3efc7f9a39c36fe33a42400c5c82243c"
+    }
+  ],
+  "Thursday": [
+    {
+      "course": "CS1000",
+      "startTime": "11:00",
+      "endTime": "11:55",
+      "link": ""
+    },
+    {
+      "course": "MA1220",
+      "startTime": "12:00",
+      "endTime": "12:55",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m37fe33ce5eaeb93acfd0c4694b2e7741"
+    },
+    {
+      "course": "EP1108",
+      "startTime": "14:30",
+      "endTime": "15:55",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m1d5e225e5eafb42a237ac85a9ff3816c"
+    },
+    {
+      "course": "CS1010",
+      "startTime": "16:00",
+      "endTime": "17:25",
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjIyMzRlODAtNjNiZi00M2M2LTk2Y2EtM2IyNWYzNGQ0YTI3%40thread.v2/0?context=%7b%22Tid%22%3a%222f057da9-71e5-4402-9d02-954621afa5a6%22%2c%22Oid%22%3a%22a62a5f06-8755-48bf-8f7c-b67affbd055d%22%7d"
+    }
+  ],
+  "Friday": [
+    {
+      "course": "MA1220",
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m84dc0e6ea5a55cab7b6cb785a84a08a7"
+    },
+    {
+      "course": "LA1760",
+      "startTime": "11:00",
+      "endTime": "11:55",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m17836e441b56afc414b8bfe38f615d08"
+    },
+    {
+      "course": "CY1018",
+      "startTime": "14:30",
+      "endTime": "15:55",
+      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m219fbc79bd86c2e9290b487f04cde25a"
+    }
+  ]
+}
