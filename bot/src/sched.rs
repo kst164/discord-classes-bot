@@ -35,10 +35,6 @@ impl Class {
         self.end_time
     }
 
-    pub fn duration(&self) -> chrono::Duration {
-        self.end_time - self.start_time
-    }
-
     pub fn link(&self) -> &Option<String> {
         &self.link
     }
@@ -72,12 +68,12 @@ impl Schedule {
         Self { days }
     }
 
-    pub fn classes_on_weekday(&self, weekday: Weekday) -> &[Class] {
+    fn classes_on_weekday(&self, weekday: Weekday) -> &[Class] {
         &self.days[weekday as usize]
     }
 
     pub fn classes_on_date(&self, date: impl Datelike) -> &[Class] {
-        &self.days[date.weekday() as usize]
+        self.classes_on_weekday(date.weekday())
     }
 }
 
