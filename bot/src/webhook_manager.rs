@@ -8,6 +8,8 @@ use std::collections::HashMap;
 
 use crate::sched::Class;
 
+const ROLE_ID: &str = env!("DISCORD_CLASSES_ROLE_ID");
+
 pub(crate) struct WebhookManager {
     // HashMap<CourseCode, MessageID>
     sent: HashMap<String, String>,
@@ -43,7 +45,8 @@ impl WebhookManager {
                     "title": "Upcoming Class",
                     "description": desc,
                 }
-            ]
+            ],
+            "content": format!("<@&{}>", ROLE_ID)
         });
 
         let uri = format!("{}?wait=true", self.webhook_url);
@@ -94,7 +97,8 @@ impl WebhookManager {
                     "title": "Current Class",
                     "description": desc,
                 }
-            ]
+            ],
+            "content": format!("<@&{}>", ROLE_ID)
         });
 
         let uri = format!("{}/messages/{}", self.webhook_url, msg_id);
@@ -104,7 +108,7 @@ impl WebhookManager {
             .body(Body::from(body.to_string()))
             .unwrap();
 
-        let response = self.client.request(request).await.unwrap();
+        let _response = self.client.request(request).await.unwrap();
         Some(())
     }
 
