@@ -9,8 +9,8 @@
     {
       "course": "LA1760",
       "startTime": "12:00",
-      "endTime": "13:25",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=mc7166f5479c257b4891a676b0544d44e"
+      "endTime": "12:55",
+      "link": ""
     },
     {
       "course": "CS1010",
@@ -30,25 +30,13 @@
       "course": "LA1760",
       "startTime": "09:00",
       "endTime": "09:55",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=ma0a8f2ea3cf6f162ba97154c9efe2d54"
-    },
-    {
-      "course": "MA1220",
-      "startTime": "10:00",
-      "endTime": "10:55",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=mbf80f790d6e5e02e8e84ba864c2b8e68"
+      "link": ""
     },
     {
       "course": "ID1063",
       "startTime": "14:30",
       "endTime": "15:55",
       "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m270c11fbcd6b3071e441a6cf320473b8"
-    },
-    {
-      "course": "CY1018",
-      "startTime": "16:00",
-      "endTime": "17:25",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m5db0a582b01e7b7dd668dfbfe408570d"
     }
   ],
   "Wednesday": [
@@ -73,12 +61,6 @@
       "link": ""
     },
     {
-      "course": "MA1220",
-      "startTime": "12:00",
-      "endTime": "12:55",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m37fe33ce5eaeb93acfd0c4694b2e7741"
-    },
-    {
       "course": "EP1108",
       "startTime": "14:30",
       "endTime": "15:55",
@@ -93,22 +75,10 @@
   ],
   "Friday": [
     {
-      "course": "MA1220",
-      "startTime": "09:00",
-      "endTime": "09:55",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m84dc0e6ea5a55cab7b6cb785a84a08a7"
-    },
-    {
-      "course": "LA1760 (Office Hours)",
+      "course": "LA1760",
       "startTime": "11:00",
       "endTime": "11:55",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m17836e441b56afc414b8bfe38f615d08"
-    },
-    {
-      "course": "CY1018",
-      "startTime": "14:30",
-      "endTime": "15:55",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m219fbc79bd86c2e9290b487f04cde25a"
+      "link": ""
     }
   ]
 }
