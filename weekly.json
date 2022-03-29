@@ -1,83 +1,107 @@
 {
   "Monday": [
     {
-      "course": "CS1000",
+      "course": "ID1050",
       "startTime": "10:00",
       "endTime": "10:55",
       "link": ""
     },
     {
-      "course": "LA1760",
+      "course": "AI1110",
       "startTime": "12:00",
       "endTime": "12:55",
       "link": ""
     },
     {
-      "course": "CS1010",
+      "course": "EP1031",
       "startTime": "14:30",
-      "endTime": "15:55",
-      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjIyMzRlODAtNjNiZi00M2M2LTk2Y2EtM2IyNWYzNGQ0YTI3%40thread.v2/0?context=%7b%22Tid%22%3a%222f057da9-71e5-4402-9d02-954621afa5a6%22%2c%22Oid%22%3a%22a62a5f06-8755-48bf-8f7c-b67affbd055d%22%7d"
-    },
-    {
-      "course": "EP1108",
-      "startTime": "16:00",
       "endTime": "17:25",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=mb4a02a3915e2b14a93198107771337c1"
+      "link": ""
     }
   ],
   "Tuesday": [
     {
-      "course": "LA1760",
+      "course": "AI1110",
       "startTime": "09:00",
       "endTime": "09:55",
       "link": ""
     },
     {
-      "course": "ID1063",
-      "startTime": "14:30",
-      "endTime": "15:55",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m270c11fbcd6b3071e441a6cf320473b8"
+      "course": "CS1023",
+      "startTime": "10:00",
+      "endTime": "10:55",
+      "link": ""
+    },
+    {
+      "course": "EE1102",
+      "startTime": "11:00",
+      "endTime": "11:55",
+      "link": ""
+    },
+    {
+      "course": "LA Elective",
+      "startTime": "12:00",
+      "endTime": "12:55",
+      "link": ""
     }
   ],
   "Wednesday": [
     {
-      "course": "CS1000",
+      "course": "ID1050",
       "startTime": "09:00",
       "endTime": "09:55",
       "link": ""
     },
     {
-      "course": "ID1063Lab",
-      "startTime": "15:30",
-      "endTime": "18:25",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m8dc208ad96f12c7e23df405b466f8827"
+      "course": "LA Elective",
+      "startTime": "12:00",
+      "endTime": "12:55",
+      "link": ""
+    },
+    {
+      "course": "EE1102",
+      "startTime": "14:30",
+      "endTime": "15:25",
+      "link": ""
     }
   ],
   "Thursday": [
     {
-      "course": "CS1000",
+      "course": "ID1050",
       "startTime": "11:00",
       "endTime": "11:55",
       "link": ""
     },
     {
-      "course": "EP1108",
-      "startTime": "14:30",
-      "endTime": "15:55",
-      "link": "https://iithyd.webex.com/iithyd/j.php?MTID=m1d5e225e5eafb42a237ac85a9ff3816c"
-    },
-    {
-      "course": "CS1010",
-      "startTime": "16:00",
-      "endTime": "17:25",
-      "link": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjIyMzRlODAtNjNiZi00M2M2LTk2Y2EtM2IyNWYzNGQ0YTI3%40thread.v2/0?context=%7b%22Tid%22%3a%222f057da9-71e5-4402-9d02-954621afa5a6%22%2c%22Oid%22%3a%22a62a5f06-8755-48bf-8f7c-b67affbd055d%22%7d"
+      "course": "CS1023",
+      "startTime": "12:00",
+      "endTime": "12:55",
+      "link": ""
     }
   ],
   "Friday": [
     {
-      "course": "LA1760",
+      "course": "CS1023",
+      "startTime": "09:00",
+      "endTime": "09:55",
+      "link": ""
+    },
+    {
+      "course": "EE1102",
+      "startTime": "10:00",
+      "endTime": "10:55",
+      "link": ""
+    },
+    {
+      "course": "AI1110",
       "startTime": "11:00",
       "endTime": "11:55",
+      "link": ""
+    },
+    {
+      "course": "LA Elective",
+      "startTime": "12:00",
+      "endTime": "12:55",
       "link": ""
     }
   ]
