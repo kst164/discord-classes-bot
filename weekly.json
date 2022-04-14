@@ -4,13 +4,13 @@
       "course": "ID1050",
       "startTime": "10:00",
       "endTime": "10:55",
-      "link": ""
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3a9ACjegvpvxHtTc3QcCOaW0bArr2g7WQ8PDyXix0lPhQ1%40thread.tacv2/1648394822581?context=%7b%22Tid%22%3a%222f057da9-71e5-4402-9d02-954621afa5a6%22%2c%22Oid%22%3a%22b798b347-1556-436e-b228-0b02bae4aa46%22%7d"
     },
     {
       "course": "AI1110",
       "startTime": "12:00",
       "endTime": "12:55",
-      "link": ""
+      "link": "https://meet.google.com/noc-yche-xzs"
     },
     {
       "course": "EP1031",
@@ -24,13 +24,13 @@
       "course": "AI1110",
       "startTime": "09:00",
       "endTime": "09:55",
-      "link": ""
+      "link": "https://meet.google.com/noc-yche-xzs"
     },
     {
       "course": "CS1023",
       "startTime": "10:00",
       "endTime": "10:55",
-      "link": ""
+      "link": "https://meet.google.com/hcz-wfcn-cqh"
     },
     {
       "course": "EE1102",
@@ -50,7 +50,7 @@
       "course": "ID1050",
       "startTime": "09:00",
       "endTime": "09:55",
-      "link": ""
+      "link": "https://teams.microsoft.com/l/meetup-join/19%3a9ACjegvpvxHtTc3QcCOaW0bArr2g7WQ8PDyXix0lPhQ1%40thread.tacv2/1648583805499?context=%7b%22Tid%22%3a%222f057da9-71e5-4402-9d02-954621afa5a6%22%2c%22Oid%22%3a%22b798b347-1556-436e-b228-0b02bae4aa46%22%7d"
     },
     {
       "course": "LA Elective",
@@ -76,7 +76,7 @@
       "course": "CS1023",
       "startTime": "12:00",
       "endTime": "12:55",
-      "link": ""
+      "link": "https://meet.google.com/hcz-wfcn-cqh"
     }
   ],
   "Friday": [
@@ -84,7 +84,7 @@
       "course": "CS1023",
       "startTime": "09:00",
       "endTime": "09:55",
-      "link": ""
+      "link": "https://meet.google.com/hcz-wfcn-cqh"
     },
     {
       "course": "EE1102",
@@ -96,13 +96,21 @@
       "course": "AI1110",
       "startTime": "11:00",
       "endTime": "11:55",
-      "link": ""
+      "link": "https://meet.google.com/noc-yche-xzs"
     },
     {
       "course": "LA Elective",
       "startTime": "12:00",
       "endTime": "12:55",
       "link": ""
+    }
+  ],
+  "Saturday": [
+    {
+      "course": "ID1054",
+      "startTime": "11:00",
+      "endTime": "11:55",
+      "link": "https://us02web.zoom.us/j/81144629779?pwd=ODduTjk1cGYwVENPWXJyOTdTQ0NVZz09"
     }
   ]
 }
